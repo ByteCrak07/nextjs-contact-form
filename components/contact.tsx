@@ -18,8 +18,8 @@ const Contact: FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <div className='mb-5'>
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-md mx-auto">
+      <div className='mb-2'>
         <label
           htmlFor='name'
           className='mb-3 block text-base font-medium text-black'
